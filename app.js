@@ -1,9 +1,27 @@
-$(function(){
-  $('.box1').slideDown(function(){
-    $('.box1').css({
-      'background-color':'#0000ff',
-      'height':'100px',
-      'width':'200px'
-    }).slideUp();
-  });
+$(document).ready(function(){
+  $('body').html('<h1>Hello JQuery!!</h1>');
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// $(function(){
+//   $('.box1').slideDown(function(){
+//     $('.box1').css({
+//       'background-color':'#0000ff',
+//       'height':'100px',
+//       'width':'200px'
+//     }).slideUp();
+//   });
+// });
